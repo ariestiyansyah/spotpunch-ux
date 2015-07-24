@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Register | Spotpunch</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <!--<meta name="mobile-web-app-capable" content="yes" />-->
+    <!--<meta http-equiv="cleartype" content="on" />-->
+
+    <!-- iPhone -->
+    <!--<link href="icon-57.png" sizes="57x57" rel="apple-touch-icon" />-->
+    <!--<link href="startup-image-320x460.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image" />-->
+    <!-- iPhone (Retina) -->
+    <!--<link href="icon-114.png" sizes="114x114" rel="apple-touch-icon" />-->
+    <!--<link href="startup-image-640x920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />-->
+    <!-- iPhone 5 -->
+    <!--<link href="startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />-->
+    <!-- iPad -->
+    <!--<link href="icon-72.png" sizes="72x72" rel="apple-touch-icon" />-->
+    <!--<link href="startup-image-768x1004.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image" />-->
+    <!--<link href="startup-image-748x1024.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image" />-->
+    <!-- iPad (Retina) -->
+    <!--<link href="icon-144.png" sizes="144x144" rel="apple-touch-icon" />-->
+    <!--<link href="startup-image-1536x2008.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />-->
+    <!--<link href="startup-image-1496x2048.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />-->
+
+    <link rel="stylesheet" href="css/spotpunch.css" />
+</head>
+<body>
+	<section id="main-content" class="content dashboard">
+		<span class="dashboard-help" onclick="alert('Help Button'); return false;">?</span>
+		<h1 class="dashboard-logo">
+			<i class="spcon spcon-logo"></i>
+			<span>SpotPunch</span>
+		</h1>
+		<form onsubmit="alert('Form send post'); return false;" class="login-form" action="index.html" method="post">
+			<div class="login-input">
+				<input type="text" name="name" placeholder="Username" />
+			</div>
+			<div class="login-input">
+				<input type="text" name="firstname" placeholder="First Name" />
+			</div>
+			<div class="login-input">
+				<input type="text" name="lastname" placeholder="Last Name" />
+			</div>
+			<div class="login-input">
+				<input type="email" name="email" placeholder="Email" />
+			</div>
+			<div class="login-input">
+				<input type="password" name="password" placeholder="Password" />
+			</div>
+			<div class="login-button">
+				<input type="submit" value="REGISTER" />
+			</div>
+			<div class="login-link">
+				<div class="login-row">
+					<div><a href="#" onclick="alert('Redirect to Forgot page'); return false;">Forgot</a></div>
+					<div><a href="#" onclick="alert('Redirect to Register page'); return false;">Login</a></div>
+				</div>
+			</div>
+		</form>
+	</section>
+</body>
+</html>

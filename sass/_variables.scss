@@ -1,0 +1,30 @@
+//
+// Define Variables
+// -----------------------------------------------------------------------------
+
+$font-path   : '../fonts' !default;
+$font-family : 'Open Sans', sans-serif !default;
+$font-size   : 12px !default;
+$font-weight : 300 !default;
+$line-height : 21px !default;
+
+$white-color      : #FFFFFF !default;
+$black-color      : #000000 !default;
+$background-color : $white-color !default;
+$default-color    : $black-color !default;
+$spotpunch-color  : #B63131 !default;
+$link-color       : #428BCA !default;
+
+$border-default : 1px solid #DDDDDD !default;
+//$border-chrome  : 1px solid darken($chrome-color, 8%) !default;
+//$border-radius  : 6px !default;
+
+$icon-prefix : 'spcon';
+$icon-size   : 12px !default;
+
+//$bar-side-spacing : 10px !default;
+//$bar-base-height  : 44px !default;
+//$bar-tab-height   : 50px !default;
+
+//$content-spacing  : 10px !default;
+//$button-font-size : 12px !default;

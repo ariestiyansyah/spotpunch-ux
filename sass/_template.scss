@@ -1,0 +1,111 @@
+//
+// Templates
+// -----------------------------------------------------------------------------
+
+.dashboard {
+	background: $spotpunch-color;
+	color: $white-color;
+}
+.dashboard-help {
+	background: $white-color;
+	color: $spotpunch-color;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;
+	z-index: 1;
+	cursor: pointer;
+	@include border-radius(30px);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+}
+.dashboard-logo {
+	margin: 60px 0;
+	padding: 0;
+	line-height: 28px;
+	font-size: 24px;
+	font-weight: 300;
+	text-align: center;
+	cursor: default;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	.spcon-logo {
+		margin-bottom: 25px;
+		font-size: 86px;
+	}
+	span {
+		display: block;
+	}
+}
+.login-form {
+	margin: 0 auto 80px auto;
+	max-width: 768px;
+}
+.login-input {
+	color: $spotpunch-color;
+	margin: 25px 75px;
+	position: relative;
+	input {
+		margin: 0;
+		font-size: 15px;
+	}
+}
+.login-button {
+	margin: 15px 0;
+	text-align: center;
+	button,
+	submit,
+	input[type="submit"] {
+		background: transparent;
+		border: 0 none;
+		color: $white-color;
+		padding: 3px 10px;
+		width: auto;
+		font-size: 15px;
+	}
+}
+.login-link {
+	border-top: 1px solid $white-color;
+	margin: 15px 75px;
+	padding: 10px 0;
+	.login-row {
+		width: 100%;
+		display: table;
+		> * {
+			border-left: 1px solid $white-color;
+			width: 50%;
+			display: table-cell;
+			text-align: center;
+			&:first-of-type {
+				border-left: 0 none;
+			}
+		}
+	}
+	a {
+		color: $white-color;
+		padding: 0 7px;
+		line-height: 27px;
+		display: inline-block;
+	}
+}
+.spotpunch-intro {
+	margin: 20px auto;
+	max-width: 768px;
+	line-height: 18px;
+	text-align: center;
+	h3 {
+		margin: 0 0 20px 0;
+		padding: 0 40px;
+		font-size: 24px;
+		font-weight: 800;
+	}
+	p {
+		padding: 0 55px;
+	}
+}
