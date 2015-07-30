@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Metas -->
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<!-- Meta Title -->
+	<title>SpotPunch</title>
+
+	<!-- CSS -->
+	<link type="text/css" href="css/spotpunch.css" rel="stylesheet" />
+</head>
+<body>
+<div class="canvas">
+	<!-- Dashboard Content -->
+	<div class="content dashboard">
+		<div class="dashboard-container fade">
+			<!-- Dashboard Help -->
+			<a class="dashboard-help" href="modal/help.html" data-toggle="modal" data-target="#dashboard-help">?</a>
+
+			<!-- Dashboard Logo -->
+			<h1 class="dashboard-logo">
+				<i class="spicon spicon-logo"></i>
+				<span>SpotPunch</span>
+			</h1>
+
+			<!-- Form Login -->
+			<form class="login-form">
+				<div class="login-input">
+					<input type="email" name="email" placeholder="Email" />
+				</div>
+				<div class="login-input">
+					<input type="text" name="password" placeholder="Password" />
+				</div>
+				<div class="login-button">
+					<input type="button" onclick="window.location.href='timeline.html'; return false;" value="LOGIN" />
+				</div>
+				<div class="login-link">
+					<div class="login-row">
+						<div><a href="#">Forgot</a></div>
+						<div><a href="#">Register</a></div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Modal Box -->
+<div class="modal fade" id="dashboard-help" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content"></div>
+	</div>
+</div>
+
+<!-- Scripts -->
+<script type="text/javascript" src="js/libs/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap/transition.js"></script>
+<script type="text/javascript" src="js/bootstrap/modal.js"></script>
+<script type="text/javascript" src="js/dashboard.js"></script>
+</body>
+</html>
