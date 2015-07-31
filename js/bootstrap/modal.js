@@ -25,6 +25,7 @@
 				.find('.modal-content')
 				.load(this.options.remote, $.proxy(function () {
 					this.$element.trigger('loaded.sp.modal');
+					this.adjustDialog();
 				}, this));
 		}
 	};
